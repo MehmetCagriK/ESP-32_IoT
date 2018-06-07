@@ -44,22 +44,22 @@ If you are using the **LightBlue** application as suggested, follow the steps be
 
 1. Push to **Door Checker** tab at the main screen of the app.
 
-![Main Screen of the app](0.jpg)
+![Main Screen of the app](img/0.jpg)
 
 2. At the very top, you will see "**Door Checker**" name and UUID of the device.Under the UUID, connection status will be written.Make sure you are in **Connected** state.
 
-![Door Checker main screen](main.jpg)
+![Door Checker main screen](img/main.jpg)
 
 3. At the bottom, you will see the list of service and characteristic UUIDs in a hierarchical manner. Since we are using general purpose application, we can not name the services by their UUID. But still, we can use UUIDs to distinguish services.
 
 4. UUID starting with "**0000180A...**" belongs to the **Device Information** service, under that, **Manufactor Name** and **Model Number** characteristics. Click **Manufactor Name** characteristic open a screen specific to it. At the top right, click **Hex** button and choose **UTF-8** option to read strings properly. Repeat it for **Model Number** characteristic. 
 
-![](manraw.jpg) 
-![](manhex.jpg)
-![](10.jpg)
-![](kos.jpg)
+![](img/manraw.jpg) 
+![](img/manhex.jpg)
+![](img/10.jpg)
+![](img/kos.jpg)
 
 5. UUID starting with "**4FAFC201...**" belongs to the **Door Check** service, under that, **Door Status** characteristic. Repeat the step 4 for **Door Status** characteristic to see status of the door. This characteristic has **notify** property. To see notifications, click to the Listen for notifications button.
 
-![](openclose.jpg)
+![](img/openclose.jpg)
 
