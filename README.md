@@ -16,6 +16,14 @@ Software installed to the ESP-32 Dev. Kit is developed with Arduino IDE. Arduino
 
 [USB Driver for ESP-32](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
+### Tools&Apps
+
+WiFi examples will send the data read from sensors to **ThingSpeak** and visualize. To learn how to use **ThingSpeak**, refer to the guide below;
+
+[ThingSpeak guide](https://learn.sparkfun.com/tutorials/internet-of-things-experiment-guide/configure-thingspeak)
+
+To test bluetooth examples, we will use **LightBlue** Explorer app. You can download it on mobile devices. Currently, there are apps both for IOS and Android on the stores.
+
 ### What to Know Before
 
 It is always an advantage having knowledge of introductory level embedded software development. Arduino is an open source design that can be used to produce many types of development boards. It has smoother learning curve compared to other platforms like Texas Instruments products, thanks to its open source community and high level abstraction provided by various libraries.

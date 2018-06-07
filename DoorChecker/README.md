@@ -28,7 +28,7 @@ We will deploy our setup to the door, therefore it is better to power it with Li
 In this example, the setup is used as BLE Peripheral device. "Door Checker®" periodically checks the status of the door(open or closed) and notifies the connected users when status is changed. So it is an aperiodic notification. This notification is realized with **Door Check** service and **Door Status** characteristic. If you do not understand the terms service or characteristic, please refer to **README** at the repository level. 
 
 ### Software Build&Deploy
-1. Open this sketch in **Arduino IDE**
+1. Open **ESP32_Obstacle.ino** in **Arduino IDE**
 2. Click **Tools** -> **Board**, in the menu, choose ESP-32 Dev Module
 3. Click **Tools** -> **Port***, choose the appropriate COM port
 4. Click **Upload**
