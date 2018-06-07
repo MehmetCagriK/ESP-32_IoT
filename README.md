@@ -14,6 +14,8 @@ Software installed to the ESP-32 Dev. Kit is developed with Arduino IDE. Arduino
 
 [ESP-32 Development on Arduino IDE](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/windows.md)
 
+[USB Driver for ESP-32](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+
 ### What to Know Before
 
 It is always an advantage having knowledge of introductory level embedded software development. Arduino is an open source design that can be used to produce many types of development boards. It has smoother learning curve compared to other platforms like Texas Instruments products, thanks to its open source community and high level abstraction provided by various libraries.
@@ -26,5 +28,5 @@ We will use Wifi and Bluetooth Low Energy standards. Although ESP-32 libraries p
 
 [WiFi Architecture](http://www.tutorial-reports.com/wireless/wlanwifi/wifi_architecture.php)
 
-The links above are provided for entry point but I suggest using multiple sources for wireless communication standards and embedded software developing.
+The links above are provided for entry point but I suggest using multiple sources for wireless communication standards and embedded software developing. After having enough knowledge of both standards, I highly recommend try and test Bluetooth and WiFi examples in the Arduino IDE after installing ESP-32 packages.
 
