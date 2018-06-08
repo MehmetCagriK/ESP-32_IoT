@@ -39,6 +39,11 @@ Note: You can check the correct port by opening Device manager and plugging out/
 ### Setup Deployment
 Prepare the "**Disconnected from PC**" configuration explained in the **Connections** section. Put the setup to the sides of the door where obstacle sensor will be blocked when the door is closed. Make sure ESP-32 is powered. The software, without any user intervention, will start Bluetooth service.
 
+![Main Screen of the app](img/Opened.jpg)
+![Main Screen of the app](img/Closed.jpg)
+
+See how the sensor is placed closely to the door.
+
 ### Test
 If you are using the **LightBlue** application as suggested, follow the steps below. Any other Bluetooth scanner application would suffice.
 
@@ -62,4 +67,14 @@ If you are using the **LightBlue** application as suggested, follow the steps be
 5. UUID starting with "**4FAFC201...**" belongs to the **Door Check** service, under that, **Door Status** characteristic. Repeat the step 4 for **Door Status** characteristic to see status of the door. This characteristic has **notify** property. To see notifications, click to the Listen for notifications button.
 
 ![](img/openclose.jpg)
+
+### Example Recordings
+
+You can watch execution of Door Checker in real world and in LightBlue Explorer app by clicking the images below. Clicking images will redirect you to the YouTube videos.
+
+[![LightBlue Screen Recording](https://img.youtube.com/vi/hIGevPkYrnA/0.jpg)](https://www.youtube.com/watch?v=hIGevPkYrnA)
+
+[![LightBlue Screen Recording](https://img.youtube.com/vi/huuiIYJ0lfQ/0.jpg)](https://www.youtube.com/watch?v=huuiIYJ0lfQ)
+
+
 
